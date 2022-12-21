@@ -1,6 +1,6 @@
 <table cellpadding="0" cellspacing="0" border="0">
-  <tbody>
-    <?php
+    <tbody>
+        <?php
 
       session_start();
       //Connect to database
@@ -33,19 +33,19 @@
         if (mysqli_num_rows($resultl) > 0){
             while ($row = mysqli_fetch_assoc($resultl)){
       ?>
-                  <TR>
-                  <TD><?php echo $row['id'];?></TD>
-                  <TD><?php echo $row['username'];?></TD>
-                  <TD><?php echo $row['serialnumber'];?></TD>
-                  <TD><?php echo $row['fingerprint_id'];?></TD>
-                  <TD><?php echo $row['checkindate'];?></TD>
-                  <TD><?php echo $row['timein'];?></TD>
-                  <TD><?php echo $row['timeout'];?></TD>
-                  </TR>
-    <?php
+        <TR>
+            <TD><?php echo $row['id'];?></TD>
+            <TD><?php echo $row['username'];?></TD>
+            <TD><?php echo $row['serialnumber'];?></TD>
+            <TD><?php echo $row['fingerprint_id'];?></TD>
+            <TD><?php echo $row['checkindate'];?></TD>
+            <TD><?php echo $row['timein'];?></TD>
+            <TD><?php echo $row['timeout'];?></TD>
+        </TR>
+        <?php
             }   
         }
       }
     ?>
-  </tbody>
+    </tbody>
 </table>
