@@ -78,7 +78,67 @@
     </main>
     <style>
         @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+        input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #fff;
+    border-image: initial;
+}
+input[type="date" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: default;
+    overflow: hidden;
+    padding: 0px;
+    border-color: #fff;
+    color: #fff;
 
+}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #fff;
+    border-image: initial;
+}
 header,
 main {
     font-family: 'Open Sans', sans-serif;
